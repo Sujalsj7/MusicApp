@@ -44,12 +44,13 @@ npm run dev
 
 
 ### Demo Credentials
-Role	Username	Password
-Admin	admin	    123
-User	Sujal	    abc
-User	TestUser	xyz
+Use the following credentials to test role-based access:
 
-Use these credentials to test role-based access.
+| Role  | Username   | Password |
+|-------|-----------|----------|
+| Admin | admin     | 123      |
+| User  | Sujal     | abc      |
+| User  | TestUser  | xyz      |
 
 
 
