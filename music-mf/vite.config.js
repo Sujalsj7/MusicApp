@@ -1,8 +1,16 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import federation from "@originjs/vite-plugin-federation";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 export default defineConfig({
+  
   plugins: [
     react(),
 
@@ -13,13 +21,14 @@ export default defineConfig({
         "./MusicLibrary": "./src/MusicLibrary.jsx",
       },
       shared: ["react", "react-dom", "@mui/material", "@mui/icons-material"],
-      dev: true,
+      
     }),
+    
   ],
   build: {
     target: "esnext",
     minify: false,
-    cssCodeSplit: false,
+    cssCodeSplit: true,
   },
   server: {
     port: 5174,

@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     federation({
       remotes: {
-        musicMf: 'http://localhost:5174/assets/remoteEntry.js', 
+        musicMf: 'https://music-mf.netlify.app/assets/remoteEntry.js', 
       },
        shared: ['react', 'react-dom', '@mui/material', '@mui/icons-material'],
     })

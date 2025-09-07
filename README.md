@@ -41,9 +41,12 @@ npm install
 npm run dev
 ```
 
+## Deployed Links
 
+Main app -  https://music-mainapp.netlify.app/
+Music-mf (Micro Frontend) - https://music-mf.netlify.app/
 
-### Demo Credentials
+## Demo Credentials
 Use the following credentials to test role-based access:
 
 | Role  | Username   | Password |
@@ -56,7 +59,7 @@ Use the following credentials to test role-based access:
 
 
 
-### Micro Frontend & Role-based Auth
+## Micro Frontend & Role-based Auth
 
 **Micro Frontend Architecture**
 
